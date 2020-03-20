@@ -1,1 +1,1 @@
-# [个人博客](www.bear9596.club)
+# [个人博客](http://www.bear9596.club)
