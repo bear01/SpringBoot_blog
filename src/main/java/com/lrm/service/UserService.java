@@ -3,7 +3,7 @@ package com.lrm.service;
 import com.lrm.po.User;
 
 /**
- * Created by limi on 2017/10/15.
+ * Created by bear on 2020/3/15.
  */
 public interface UserService {
 

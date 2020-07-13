@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by limi on 2017/10/14.
+ * Created by bear on 2020/3/14.
  */
 @Entity
 @Table(name = "t_type")

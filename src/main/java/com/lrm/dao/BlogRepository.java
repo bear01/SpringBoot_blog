@@ -12,8 +12,12 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
- * Created by limi on 2017/10/20.
+ * Created by bear on 2020/3/20.
+ * 在整个应用程序中使用数据访问对象(DAO)使我们可以将底层数据访问逻辑与业务逻辑分离开来。
+ * 构建为每一个数据源提供 CRUD (创建、读取、更新、删除)操作的 DAO 类。
  */
+    //  Dao层创建与JavaBean对应的接口，继承JpaRepository<K，E>接口
+    //  Blog对应的是JavaBean实体类，Long是实体类主键的类型
 public interface BlogRepository extends JpaRepository<Blog, Long>, JpaSpecificationExecutor<Blog> {
 
     @Query("select b from Blog b where b.recommend = true")
@@ -23,8 +27,8 @@ public interface BlogRepository extends JpaRepository<Blog, Long>, JpaSpecificat
     Page<Blog> findByQuery(String query,Pageable pageable);
 
 
-    @Transactional
-    @Modifying
+    @Transactional  // 事务
+    @Modifying  // 这个注解是通知jpa，这是一个update或者delete操作，在更新或者删除操作时，此注解必须加，JPQL(JPA的查询语句)不支持insert
     @Query("update Blog b set b.views = b.views+1 where b.id = ?1")
     int updateViews(Long id);
 

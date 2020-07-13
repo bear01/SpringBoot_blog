@@ -6,7 +6,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Created by limi on 2017/10/15.
+ * Created by bear on 2020/3/15.
+ * 登陆拦截器
  */
 public class LoginInterceptor extends HandlerInterceptorAdapter {
 
@@ -15,7 +16,7 @@ public class LoginInterceptor extends HandlerInterceptorAdapter {
                              HttpServletResponse response,
                              Object handler) throws Exception {
         if (request.getSession().getAttribute("user") == null) {
-            response.sendRedirect("/admin");
+            response.sendRedirect("/admin");  // 重定向到/admin并返回false
             return false;
         }
         return true;

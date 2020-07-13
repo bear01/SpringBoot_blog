@@ -1,7 +1,8 @@
 package com.lrm.vo;
 
 /**
- * Created by limi on 2017/10/20.
+ * Created by bear on 2020/3/20.
+ * 搜索模块
  */
 public class BlogQuery {
 

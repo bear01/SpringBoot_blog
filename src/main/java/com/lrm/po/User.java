@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by limi on 2017/10/14.
+ * Created by bear on 2020/3/14.
  */
 @Entity
 @Table(name = "t_user")
@@ -26,7 +26,7 @@ public class User {
     @Temporal(TemporalType.TIMESTAMP)
     private Date updateTime;
 
-    @OneToMany(mappedBy = "user")
+    @OneToMany(mappedBy = "user") //建立关系 一对多
     private List<Blog> blogs = new ArrayList<>();
 
     public User() {
@@ -125,6 +125,7 @@ public class User {
                 ", type=" + type +
                 ", createTime=" + createTime +
                 ", updateTime=" + updateTime +
+                ", blogs=" + blogs +
                 '}';
     }
 }

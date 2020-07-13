@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
- * Created by limi on 2017/10/24.
+ * Created by bear on 2020/3/24.
  */
 @Controller
 public class AboutShowController {

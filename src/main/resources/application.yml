@@ -2,7 +2,8 @@ spring:
   thymeleaf:
     mode: HTML
   profiles:
-    active: dev
+
+    active: dev  # 指定开发环境或者生产环境
   messages:
     basename: i18n/messages
 

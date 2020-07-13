@@ -7,10 +7,10 @@ import org.springframework.data.domain.Pageable;
 import java.util.List;
 
 /**
- * Created by limi on 2017/10/16.
+ * Created by bear on 2020/3/16.
  */
 public interface TypeService {
-
+     // 定义接口方法
     Type saveType(Type type);
 
     Type getType(Long id);

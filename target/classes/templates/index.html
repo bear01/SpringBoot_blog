@@ -11,25 +11,6 @@
 
   <!--导航-->
   <nav th:replace="_fragments :: menu(1)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small" >
-    <div class="ui container">
-      <div class="ui inverted secondary stackable menu">
-        <h2 class="ui teal header item">Blog</h2>
-        <a href="#" class=" m-item item m-mobile-hide"><i class="mini home icon"></i>首页</a>
-        <a href="#" class="m-item item m-mobile-hide"><i class="mini idea icon"></i>分类</a>
-        <a href="#" class="m-item item m-mobile-hide"><i class="mini tags icon"></i>标签</a>
-        <a href="#" class="m-item item m-mobile-hide"><i class="mini clone icon"></i>归档</a>
-        <a href="#" class="m-item item m-mobile-hide"><i class="mini info icon"></i>关于我</a>
-        <div class="right m-item item m-mobile-hide">
-          <div class="ui icon inverted transparent input m-margin-tb-tiny">
-            <input type="text" placeholder="Search....">
-            <i class="search link icon"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-    <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
-      <i class="sidebar icon"></i>
-    </a>
   </nav>
 
   <!--中间内容-->
@@ -169,7 +150,7 @@
                           <div class="content"><a href="#" class="header">熊伟</a></div>
                         </div>
                         <div class="item">
-                          <i class="calendar icon"></i> 2017-10-01
+                          <i class="calendar icon"></i> 2019-10-01
                         </div>
                         <div class="item">
                           <i class="eye icon"></i> 2342
@@ -203,7 +184,7 @@
                           <div class="content"><a href="#" class="header">bear</a></div>
                         </div>
                         <div class="item">
-                          <i class="calendar icon"></i> 2017-10-01
+                          <i class="calendar icon"></i> 2019-10-01
                         </div>
                         <div class="item">
                           <i class="eye icon"></i> 2342
@@ -237,7 +218,7 @@
                           <div class="content"><a href="#" class="header">bear</a></div>
                         </div>
                         <div class="item">
-                          <i class="calendar icon"></i> 2017-10-01
+                          <i class="calendar icon"></i> 2019-10-01
                         </div>
                         <div class="item">
                           <i class="eye icon"></i> 2342
@@ -271,7 +252,7 @@
                           <div class="content"><a href="#" class="header">熊伟</a></div>
                         </div>
                         <div class="item">
-                          <i class="calendar icon"></i> 2017-10-01
+                          <i class="calendar icon"></i> 2019-10-01
                         </div>
                         <div class="item">
                           <i class="eye icon"></i> 2342
@@ -305,7 +286,7 @@
                           <div class="content"><a href="#" class="header">熊伟</a></div>
                         </div>
                         <div class="item">
-                          <i class="calendar icon"></i> 2017-10-01
+                          <i class="calendar icon"></i> 2019-10-01
                         </div>
                         <div class="item">
                           <i class="eye icon"></i> 2342
@@ -339,7 +320,7 @@
                           <div class="content"><a href="#" class="header">熊伟</a></div>
                         </div>
                         <div class="item">
-                          <i class="calendar icon"></i> 2017-10-01
+                          <i class="calendar icon"></i> 2019-10-01
                         </div>
                         <div class="item">
                           <i class="eye icon"></i> 2342
@@ -373,7 +354,7 @@
                           <div class="content"><a href="#" class="header">熊伟</a></div>
                         </div>
                         <div class="item">
-                          <i class="calendar icon"></i> 2017-10-01
+                          <i class="calendar icon"></i> 2019-10-01
                         </div>
                         <div class="item">
                           <i class="eye icon"></i> 2342
@@ -540,7 +521,7 @@
           </div>
 
           <!--二维码-->
-          <h4 class="ui horizontal divider header m-margin-top-large">扫码关注我</h4>
+          <h4 class="ui horizontal divider header m-margin-top-large">扫码联系我</h4>
           <div class="ui centered card" style="width: 11em">
             <img src="../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}" alt="" class="ui rounded image" >
           </div>
@@ -555,38 +536,6 @@
   <br>
   <!--底部footer-->
   <footer th:replace="_fragments :: footer" class="ui inverted vertical segment m-padded-tb-massive">
-    <div class="ui center aligned container">
-      <div class="ui inverted divided stackable grid">
-        <div class="three wide column">
-          <div class="ui inverted link list">
-            <div class="item">
-              <img src="../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}"  class="ui rounded image" alt="" style="width: 110px">
-            </div>
-          </div>
-        </div>
-        <div class="three wide column">
-          <h4 class="ui inverted header m-text-thin m-text-spaced " >最新博客</h4>
-          <div class="ui inverted link list">
-            <a href="#" class="item m-text-thin">用户故事（User Story）</a>
-            <a href="#" class="item m-text-thin">用户故事（User Story）</a>
-            <a href="#" class="item m-text-thin">用户故事（User Story）</a>
-          </div>
-        </div>
-        <div class="three wide column">
-          <h4 class="ui inverted header m-text-thin m-text-spaced ">联系我</h4>
-          <div class="ui inverted link list">
-            <a href="#" class="item m-text-thin">Email：bear_cq@126.com</a>
-            <a href="#" class="item m-text-thin">QQ：1031609521</a>
-          </div>
-        </div>
-        <div class="seven wide column">
-          <h4 class="ui inverted header m-text-thin m-text-spaced ">Blog</h4>
-          <p class="m-text-thin m-text-spaced m-opacity-mini">这是我的个人博客、会分享关于编程、写作、思考相关的任何内容，希望可以给来到这儿的人有所帮助...</p>
-        </div>
-      </div>
-      <div class="ui inverted section divider"></div>
-      <p class="m-text-thin m-text-spaced m-opacity-tiny">Copyright © 2019 - 2020 bear Designed by bear</p>
-    </div>
 
   </footer>
 <!--/*/<th:block th:replace="_fragments :: script">/*/-->

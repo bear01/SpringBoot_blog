@@ -16,7 +16,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by limi on 2017/10/16.
+ * Created by bear on 2020/3/16.
+ * 实现接口方法
  */
 @Service
 public class TagServiceImpl implements TagService {

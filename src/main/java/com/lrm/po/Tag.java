@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by limi on 2017/10/14.
+ * Created by bear on 2020/3/14.
  */
 @Entity
 @Table(name = "t_tag")
@@ -16,7 +16,7 @@ public class Tag {
     private Long id;
     private String name;
 
-    @ManyToMany(mappedBy = "tags")
+    @ManyToMany(mappedBy = "tags")   //被维护方
     private List<Blog> blogs = new ArrayList<>();
 
     public Tag() {

@@ -6,20 +6,20 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by limi on 2017/10/14.
+ * Created by bear on 2020/3/14.
  */
-@Entity
-@Table(name = "t_blog")
+@Entity  // 说明这是一个实体类
+@Table(name = "t_blog")  // 配置此实体类对应的数据表名为“t_blog”  ，不说明就会生成Blog表
 public class Blog {
 
-    @Id
-    @GeneratedValue
+    @Id    // 申明id为主键
+    @GeneratedValue  // 申明主键id自增
     private Long id;
 
     private String title;
 
-    @Basic(fetch = FetchType.LAZY)
-    @Lob
+    @Basic(fetch = FetchType.LAZY)   // FetchType.LAZY--懒加载:取出这条数据时，它关联的数据并不取出来，在同一个session中，什么时候要用，就什么时候取(再次访问数据库)。  FetchType.EAGER--及时加载:取出这条数据时，它关联的数据也同时取出放入内存中
+    @Lob   // @Lob 注解content属性将被持久化为 Blog 或 Clob 类型
     private String content;
     private String firstPicture;
     private String flag;
@@ -29,25 +29,25 @@ public class Blog {
     private boolean commentabled;
     private boolean published;
     private boolean recommend;
-    @Temporal(TemporalType.TIMESTAMP)
+    @Temporal(TemporalType.TIMESTAMP)   // 帮Java的Date类型进行格式化,实体类会封装成完整的时间“yyyy-MM-dd hh:MM:ss”的 Date类型
     private Date createTime;
     @Temporal(TemporalType.TIMESTAMP)
     private Date updateTime;
 
-    @ManyToOne
+    @ManyToOne   // 多对一关系映射，多篇博客对应一个type,一篇博客只能对应一个type,   多方——维护方
     private Type type;
 
-    @ManyToMany(cascade = {CascadeType.PERSIST})
+    @ManyToMany(cascade = {CascadeType.PERSIST})  // 多对多关系映射 ,
     private List<Tag> tags = new ArrayList<>();
 
 
     @ManyToOne
     private User user;
 
-    @OneToMany(mappedBy = "blog")
+    @OneToMany(mappedBy = "blog")   // 一对多
     private List<Comment> comments = new ArrayList<>();
 
-    @Transient
+    @Transient   // 标记tagIds不应该持久化
     private String tagIds;
 
     private String description;

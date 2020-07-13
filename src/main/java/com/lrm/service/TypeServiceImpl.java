@@ -15,7 +15,8 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
- * Created by limi on 2017/10/16.
+ * Created by bear on 2020/3/16.
+ * 实现接口方法
  */
 @Service
 public class TypeServiceImpl implements TypeService {
@@ -23,7 +24,7 @@ public class TypeServiceImpl implements TypeService {
     @Autowired
     private TypeRepository typeRepository;
 
-    @Transactional
+    @Transactional   // 事务  发生异常时回滚
     @Override
     public Type saveType(Type type) {
         return typeRepository.save(type);

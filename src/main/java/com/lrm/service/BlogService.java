@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by limi on 2017/10/20.
+ * Created by bear on 2020/3/20.
  */
 public interface BlogService {
 
@@ -23,7 +23,7 @@ public interface BlogService {
 
     Page<Blog> listBlog(Long tagId,Pageable pageable);
 
-    Page<Blog> listBlog(String query,Pageable pageable);
+    Page<Blog> listBlog(String query,Pageable pageable);  // 搜索
 
     List<Blog> listRecommendBlogTop(Integer size);
 
