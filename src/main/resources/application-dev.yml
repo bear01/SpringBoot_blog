@@ -13,7 +13,7 @@ spring:
 logging:
   level:
     root: info  # 级别 默认info 也可以设置warn等
-    com.lrm: debug
+    com.bear: debug
   file: log/blog-dev.log  # 文件位置  默认10M 自动切分
 
 

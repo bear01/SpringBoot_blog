@@ -1,7 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="487a709a-1e95-4f2d-a1ba-a515445d4ad6" name="Default Changelist" comment="" />
+    <list default="true" id="487a709a-1e95-4f2d-a1ba-a515445d4ad6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/基于springboot的个人博客网站.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/blog-dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-dev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/blog-dev.log.2017-11-23.0" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-dev.log.2017-11-23.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/blog-dev.log.2017-12-04.0" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-dev.log.2017-12-04.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/blog-dev.log.2017-12-05.0" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-dev.log.2017-12-05.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/blog-dev.log.2018-04-19.0" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-dev.log.2018-04-19.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/blog-dev.log.2018-04-28.0" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-dev.log.2018-04-28.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/blog-dev.log.2020-06-28.0" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-dev.log.2020-06-28.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/blog-dev.log.2020-06-29.0" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-dev.log.2020-06-29.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/blog-dev.log.2020-07-05.0" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-dev.log.2020-07-05.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/blog-dev.log.2020-07-06.0" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-dev.log.2020-07-06.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/blog-dev.log.2020-07-09.0" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-dev.log.2020-07-09.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/BlogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/BlogApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/aspect/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/aspect/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/dao/BlogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/dao/BlogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/dao/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/dao/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/dao/TagRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/dao/TagRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/dao/TypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/dao/TypeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/dao/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/dao/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/handler/ControllerExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/handler/ControllerExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/interceptor/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/interceptor/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/po/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/po/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/po/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/po/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/po/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/po/Tag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/po/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/po/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/po/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/po/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/service/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/service/BlogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/service/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/service/CommentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/service/TagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/service/TagService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/service/TagServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/service/TagServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/service/TypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/service/TypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/service/TypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/service/TypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/util/MD5Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/util/MD5Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/util/MarkdownUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/util/MarkdownUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/util/MyBeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/util/MyBeanUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/vo/BlogQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/vo/BlogQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/web/AboutShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/web/AboutShowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/web/ArchiveShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/web/ArchiveShowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/web/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/web/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/web/TagShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/web/TagShowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/web/TypeShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/web/TypeShowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/web/admin/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/web/admin/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/web/admin/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/web/admin/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/web/admin/TagController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/web/admin/TagController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrm/web/admin/TypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bear/web/admin/TypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-pro.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-pro.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/editormd/lib/codemirror/mode/perl/perl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/lib/editormd/lib/codemirror/mode/perl/perl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lrm/BlogApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bear/BlogApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-pro.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-pro.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/BlogApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/NotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/aspect/LogAspect$RequestLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/aspect/LogAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/dao/BlogRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/dao/CommentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/dao/TagRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/dao/TypeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/dao/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/handler/ControllerExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/interceptor/LoginInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/interceptor/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/po/Blog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/po/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/po/Tag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/po/Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/po/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/service/BlogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/service/BlogServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/service/BlogServiceImpl$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/service/BlogServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/service/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/service/CommentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/service/TagService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/service/TagServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/service/TypeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/service/TypeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/service/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/util/MD5Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/util/MarkdownUtils$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/util/MarkdownUtils$CustomAttributeProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/util/MarkdownUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/util/MyBeanUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/vo/BlogQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/web/AboutShowController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/web/ArchiveShowController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/web/CommentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/web/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/web/TagShowController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/web/TypeShowController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/web/admin/BlogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/web/admin/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/web/admin/TagController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrm/web/admin/TypeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/editormd/lib/codemirror/mode/perl/perl.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/lib/editormd/lib/codemirror/mode/perl/perl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lrm/BlogApplicationTests.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +157,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZtkqwtLSWLHfzaITN4PJfMqZou" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,6 +173,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589042473983" />
@@ -39,13 +183,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
-  <component name="RunManager" selected="Application.MD5Utils">
+  <component name="RunManager" selected="Spring Boot.BlogApplication">
     <configuration name="MD5Utils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lrm.util.MD5Utils" />
       <module name="blog-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lrm.util.*" />
+          <option name="PATTERN" value="com.bear.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,13 +198,18 @@
       </method>
     </configuration>
     <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="blog-master" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lrm.BlogApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="基于springboot的个人博客网站" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bear.BlogApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="D:\Program Files\jdk\jre" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.MD5Utils" />
+      <item itemvalue="Spring Boot.BlogApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MD5Utils" />
@@ -95,72 +244,102 @@
       <workItem from="1594362913271" duration="23665000" />
       <workItem from="1594618362887" duration="872000" />
       <workItem from="1594620719763" duration="793000" />
+      <workItem from="1595945426832" duration="280000" />
+      <workItem from="1595945913358" duration="2075000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="590" y="114" width="967" height="812" key="#BlogApplication" timestamp="1594006517431">
+    <state x="590" y="114" width="967" height="812" key="#BlogApplication" timestamp="1595945988402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="114" key="#BlogApplication/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1593421240583" />
     <state x="1991" y="136" key="#BlogApplication/0.0.1920.1040/1920.0.1024.1240@1920.0.1024.1240" timestamp="1593417001957" />
-    <state x="590" y="114" width="967" height="812" key="#BlogApplication/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1594006517431" />
+    <state x="590" y="114" width="967" height="812" key="#BlogApplication/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595945988402" />
     <state x="547" y="122" key="#Project_Structure" timestamp="1593351266635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="547" y="122" key="#Project_Structure/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1593351266635" />
+    <state x="414" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595946318721">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595946318721" />
+    <state x="853" y="225" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1595945982884">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="853" y="225" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595945982884" />
     <state x="710" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1594273921452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="710" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1594273921452" />
+    <state x="803" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1595945940787">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="803" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595945940787" />
+    <state x="931" y="266" key="EnvironmentVariablesDialog" timestamp="1595945946762">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="931" y="266" key="EnvironmentVariablesDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595945946762" />
     <state x="740" y="246" key="FileChooserDialogImpl" timestamp="1594436581576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="246" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1593514504235" />
     <state x="740" y="246" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1594436581576" />
-    <state width="1860" height="353" key="GridCell.Tab.0.bottom" timestamp="1594620000380">
+    <state width="1877" height="356" key="GridCell.Tab.0.bottom" timestamp="1595947333076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1593514436355" />
     <state width="981" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1024.1240@1920.0.1024.1240" timestamp="1593416750242" />
-    <state width="1860" height="353" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1594620000380" />
-    <state width="1860" height="353" key="GridCell.Tab.0.center" timestamp="1594620000380">
+    <state width="1877" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595947333076" />
+    <state width="1877" height="356" key="GridCell.Tab.0.center" timestamp="1595947333076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1593514436355" />
     <state width="981" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1024.1240@1920.0.1024.1240" timestamp="1593416750242" />
-    <state width="1860" height="353" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1594620000380" />
-    <state width="1860" height="353" key="GridCell.Tab.0.left" timestamp="1594620000380">
+    <state width="1877" height="356" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595947333076" />
+    <state width="1877" height="356" key="GridCell.Tab.0.left" timestamp="1595947333076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1593514436355" />
     <state width="981" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1024.1240@1920.0.1024.1240" timestamp="1593416750242" />
-    <state width="1860" height="353" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1594620000380" />
-    <state width="1860" height="353" key="GridCell.Tab.0.right" timestamp="1594620000380">
+    <state width="1877" height="356" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595947333076" />
+    <state width="1877" height="356" key="GridCell.Tab.0.right" timestamp="1595947333076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1593514436355" />
     <state width="981" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1024.1240@1920.0.1024.1240" timestamp="1593416750242" />
-    <state width="1860" height="353" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1594620000380" />
-    <state width="1860" height="2" key="GridCell.Tab.1.bottom" timestamp="1594436587302">
+    <state width="1877" height="356" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595947333076" />
+    <state width="1877" height="356" key="GridCell.Tab.1.bottom" timestamp="1595947333076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="2" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1594436587302" />
-    <state width="1860" height="2" key="GridCell.Tab.1.center" timestamp="1594436587302">
+    <state width="1877" height="356" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595947333076" />
+    <state width="1877" height="356" key="GridCell.Tab.1.center" timestamp="1595947333076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="2" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1594436587302" />
-    <state width="1860" height="2" key="GridCell.Tab.1.left" timestamp="1594436587301">
+    <state width="1877" height="356" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595947333076" />
+    <state width="1877" height="356" key="GridCell.Tab.1.left" timestamp="1595947333076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="2" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1594436587301" />
-    <state width="1860" height="2" key="GridCell.Tab.1.right" timestamp="1594436587302">
+    <state width="1877" height="356" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595947333076" />
+    <state width="1877" height="356" key="GridCell.Tab.1.right" timestamp="1595947333076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="2" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1594436587302" />
+    <state width="1877" height="356" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595947333076" />
     <state width="1860" height="2" key="GridCell.Tab.2.bottom" timestamp="1594436587302">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -185,10 +364,10 @@
       <screen x="1920" y="0" width="1024" height="1240" />
     </state>
     <state x="1933" y="264" key="SettingsEditor/0.0.1920.1040/1920.0.1024.1240@1920.0.1024.1240" timestamp="1593416533987" />
-    <state x="662" y="223" width="596" height="594" key="find.popup" timestamp="1594378870363">
+    <state x="882" y="206" width="596" height="594" key="find.popup" timestamp="1595946207995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="223" width="596" height="594" key="find.popup/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1594378870363" />
+    <state x="882" y="206" width="596" height="594" key="find.popup/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595946207995" />
     <state x="334" y="180" key="new project wizard" timestamp="1594436585018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -207,34 +386,34 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lrm/BlogApplication.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/bear/BlogApplication.java</url>
           <line>9</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lrm/aspect/LogAspect.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/bear/aspect/LogAspect.java</url>
           <line>26</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lrm/handler/ControllerExceptionHandler.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/bear/handler/ControllerExceptionHandler.java</url>
           <line>19</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lrm/web/IndexController.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/bear/web/IndexController.java</url>
           <line>24</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lrm/interceptor/WebConfig.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/bear/interceptor/WebConfig.java</url>
           <line>14</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lrm/NotFoundException.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/bear/NotFoundException.java</url>
           <line>11</line>
-          <properties class="com.lrm.NotFoundException" method="&lt;init&gt;">
+          <properties class="com.bear.NotFoundException" method="&lt;init&gt;">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="6" />

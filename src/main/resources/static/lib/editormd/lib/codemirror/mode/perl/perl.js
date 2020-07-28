@@ -256,7 +256,7 @@ CodeMirror.defineMode("perl",function(){
                                                 //      PERL functions
                 'abs'                           :1,     // - absolute value function
                 accept                          :1,     // - accept an incoming socket connect
-                alarm                           :1,     // - schedule a SIGALRM
+                alarm                           :1,     // - schedule a SIGAbear
                 'atan2'                         :1,     // - arctangent of Y/X in the range -PI to PI
                 bind                            :1,     // - binds an address to a socket
                 binmode                         :1,     // - prepare binary files for I/O

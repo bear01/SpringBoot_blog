@@ -12,7 +12,7 @@ spring:
 logging:
   level:
     root: warn
-    com.lrm: info
+    com.bear: info
   file: log/blog-pro.log
 
 
